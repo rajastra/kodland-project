@@ -52,6 +52,8 @@ body {
    .header {
       flex-direction: column;
       gap: 3rem;
+      padding: 1rem 2rem;
+
    }
 
    .header__title {
@@ -318,7 +320,6 @@ body {
    }
 
    .playground__bg {
-      /* make absoute center */
       top: 10;
    }
 
@@ -337,6 +338,13 @@ body {
       padding: 6rem 2vw;
    }
 }
+
+@media only screen and (max-width: 35em) {
+   .playground__bg {
+      transform: translateY(100%);
+   }
+}
+
 
 
 .footer {
